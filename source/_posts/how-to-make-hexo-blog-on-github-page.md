@@ -154,16 +154,40 @@ https://hexo.io/themes/ 에 접속해서 Hexo에서 사용할 수 있는 여러�
 다만, 로컬에서 Server 재시작에도 변경사항이 제대로 반영되지 않을때, clean 명령을 통해 저장소를 초기화할 수 있습니다.
 
 ```bash
-D:\blog\src>hexo clean
-D:\blog\src>hexo server
+D:\blog\src> hexo clean
+D:\blog\src> hexo server
 
 ```
 
+## # 백업 설정
+Jekyll과 달리 Hexo는 각 변경사항이 모두 Git으로 버전관리가 되지 않기 때문에, 유실에 대비하여 GitHub에 Repository(https://github.com/username/blog-source.git) 를 만들고 관리하는 것으로 설정하였다.
 
+## 1. Hexo 저장소 git에 관리
+```bash
+# git 저장소로 만들고 커밋
+D:\blog\src> git init
+D:\blog\src> git add --all
+D:\blog\src> git commit -m "initial commit"
+D:\blog\src> git remote add origin https://github.com/username/blog-source.git
+D:\blog\src> git push origin master
 
+```
 
+## 2. 반영시마다 Hexo 저장소도 commit하도록 배치파일 생성
+```bash
+# hexoCommit.bat 파일 생성
 
-##참고
+D:\blog\src> copy con hexoCommit.bat
+cd c:\dev\blog\src
+git add --all
+git commit -m "블로그 소스 반영(%date%)"
+git push -u origin master
+hexo deploy --generate
+
+# Ctrl + Z (저장)
+```
+
+## 참고
 ----
 - Github Pages와 Hexo를 통해 30분만에 기술 블로그 만들기(https://www.holaxprogramming.com/2017/04/16/github-page-and-hexo/)
 - 워드프레스보다 쉬운 Hexo 블로그 시작하기(http://futurecreator.github.io/2016/06/14/get-started-with-hexo/)
