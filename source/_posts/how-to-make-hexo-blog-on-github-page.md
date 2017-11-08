@@ -173,12 +173,13 @@ D:\blog\src> git push origin master
 
 ```
 
-## 2. 반영시마다 Hexo 저장소도 commit하도록 배치파일 생성
+## 2. 배치파일 생성
+반영시마다 Hexo 저장소를 commit하고 반영하는 배치파일 생성
 ```bash
 # hexoCommit.bat 파일 생성
 
 D:\blog\src> copy con hexoCommit.bat
-cd c:\dev\blog\src
+cd D:\blog\src
 git add --all
 git commit -m "블로그 소스 반영(%date%)"
 git push -u origin master
