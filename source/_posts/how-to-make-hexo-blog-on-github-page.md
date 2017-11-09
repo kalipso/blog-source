@@ -3,6 +3,7 @@ title: Github Page에 Hexo 블로그 만들기
 date: 2017-11-08 17:02:10
 categories:
  - Application
+ - Hexo
 tags:
  - hexo
  - 블로그 만들기
