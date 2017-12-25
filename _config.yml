@@ -65,7 +65,7 @@ sitemap:
 feed:
   type: atom
   path: feed.xml
-  limit: 20
+  limit: 50
   hub:
 
 # Date / Time format
