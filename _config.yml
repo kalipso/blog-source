@@ -5,7 +5,7 @@
 # Site
 title: 낭만디비술사
 subtitle:
-description:
+description: kalipso의 IT/일상 블로그
 author: kalipso
 language: en
 timezone: Asia/Seoul
@@ -65,7 +65,7 @@ sitemap:
 feed:
   type: atom
   path: feed.xml
-  limit: 50
+  limit: false
   hub:
 
 # Date / Time format
