@@ -1,9 +1,13 @@
 ---
 title: '2018년, 신문 구독하기'
 categories:
-  - null
+ - Diary
+ - 일상/여행
 tags:
-  - null
+ - 신문구독
+ - 어떤신문을볼까
+ - 경향신문구독
+ - 한국경제구독
 thumbnail: 'https://farm5.staticflickr.com/4718/25919439778_58e9510c6b_o.jpg'
 date: 2018-01-23 02:37:22
 ---
