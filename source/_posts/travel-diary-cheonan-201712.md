@@ -2,7 +2,7 @@
 title: 당일치기 천안여행 (feat.알쓸신잡)
 categories:
   - Diary
-  - 여행
+  - 일상/여행
 tags:
   - 알쓸신잡
   - 천안아산
