@@ -1,16 +1,17 @@
 ---
-title: ［태교일기］ 이름 짓기, 그리고 출생
+title: '［태교일기］ 이름 짓기, 그리고 출생'
 categories:
   - Diary
   - 태교일기
 tags:
   - 태교일기
-  - 아기작명
   - 이름짓기
+  - 태아작명
   - 출생신고
-  - 똥글이
 thumbnail: 'https://farm1.staticflickr.com/864/27957492728_f798e54f17_z.jpg'
+date: 2018-05-06 01:46:49
 ---
+
 
 
 ## 2018.05.01(화)
